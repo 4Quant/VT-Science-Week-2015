@@ -13,10 +13,14 @@ The presentation and related material for the VT Science Week Imaging Workshop
 
 - A simple example of the report which can be generated from the H&E images [here](Example-Report.pdf?raw=true)
 
+## Simulation Related Tools
+- [CompuCell3D](http://www.compucell3d.org/), a simulation tool based on the Cellular Potts Model.
+- A talk we held at EUFOAM in 2014: "COARSENING IN LIQUID FOAMS: A HYBRID SIMULATION-EXPERIMENTAL TECHNIQUE"
+ - [Presentation Slides](CoarseningFoams.pdf?raw=true)
+- [Rheology Simulation](https://rawgit.com/4Quant/VT-Science-Week-2015/master/FoamAnimation.avi)
+
 ## Movie Related Tools
 ### Video Lan Client
-VLC - Video Lan Client
-===
 This tool is one of the most flexible that can plan and transform a large variety of video content.
 
 Example
@@ -36,8 +40,10 @@ $PathToVLC PathToVideo$
 ```
 
 ## Relevant Links
-- KNIME Image Procesing Forums (__missing link__), here you can ask questions about how to work and solve new problems in KNIME.
+- [KNIME Image Procesing Forums](https://tech.knime.org/forum/knime-image-processing), here you can ask questions about how to work and solve new problems in KNIME.
 - [Report bugs in KNIME Image Processing](https://github.com/knime-ip/knip/issues)
+ - Provide anonymous feedback on the course [here](https://docs.google.com/spreadsheet/embeddedform?formkey=dEtIX1ZXMzFacmdhRF9mQVpNaWtWTXc6MA)
+ - Or send direct email (slightly less anonymous feedback) to [Kevin](mailto:mader@biomed.ee.ethz.ch)
 - [KNIME Setup](https://github.com/kmader/Quantitative-Big-Imaging-2015/wiki/KNIME-Setup)
 
 - [KNIME Youtube Video](https://www.youtube.com/watch?v=7HwCgleJMk4)
