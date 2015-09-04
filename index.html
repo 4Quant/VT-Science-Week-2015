@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>VT Science Week Imaging Seminar by 4Quant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">VT Science Week Imaging Seminar</h1>
+      <h2 class="project-tagline"></h2>
+      <a href="https://github.com/4Quant/VT-Science-Week-2015" class="btn">View on GitHub</a>
+      <a href="https://github.com/4Quant/VT-Science-Week-2015/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/4Quant/VT-Science-Week-2015/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p>The presentation and related material for the VT Science Week Imaging Workshop</p>
+
+<ul>
+<li>The introduction/business <a href="https://rawgit.com/4Quant/VT-Science-Week-2015/master/introslides.html">slides</a>
+</li>
+<li>The workshop <a href="https://rawgit.com/4Quant/VT-Science-Week-2015/master/slides.html">slides</a> can be seen here</li>
+<li>The version of the slides/workflows for the Biodesign Group (biomaterials, histology, etc) <a href="http://4quant.com/Biodesign-Imaging-Workshop-2015">here</a>
+</li>
+<li><p>The workflows we made in the workshop (Cell Analysis/Counting, Chocolate Adhesion Analysis, and Bubble Detection) are <a href="https://github.com/4Quant/VT-Science-Week-2015/blob/master/VTWeek.zip?raw=true">here</a> </p></li>
+<li><p>A simple statistics workflow is available here <a href="https://github.com/4Quant/Biodesign-Imaging-Workshop-2015/blob/master/BD2015.zip?raw=true">here</a></p></li>
+<li><p>A simple example of the report which can be generated from the H&amp;E images <a href="Example-Report.pdf?raw=true">here</a></p></li>
+</ul>
+
+<h2>
+<a id="simulation-related-tools" class="anchor" href="#simulation-related-tools" aria-hidden="true"><span class="octicon octicon-link"></span></a>Simulation Related Tools</h2>
+
+<ul>
+<li>
+<a href="http://www.compucell3d.org/">CompuCell3D</a>, a simulation tool based on the Cellular Potts Model.</li>
+<li>A talk we held at EUFOAM in 2014: "COARSENING IN LIQUID FOAMS: A HYBRID SIMULATION-EXPERIMENTAL TECHNIQUE"
+
+<ul>
+<li><a href="CoarseningFoams.pdf?raw=true">Presentation Slides</a></li>
+</ul>
+</li>
+<li><a href="https://rawgit.com/4Quant/VT-Science-Week-2015/master/FoamAnimation.avi">Rheology Simulation</a></li>
+</ul>
+
+<h2>
+<a id="movie-related-tools" class="anchor" href="#movie-related-tools" aria-hidden="true"><span class="octicon octicon-link"></span></a>Movie Related Tools</h2>
+
+<h3>
+<a id="video-lan-client" class="anchor" href="#video-lan-client" aria-hidden="true"><span class="octicon octicon-link"></span></a>Video Lan Client</h3>
+
+<p>This tool is one of the most flexible that can plan and transform a large variety of video content.</p>
+
+<p>Example</p>
+
+<pre><code>/Applications/VLC.app/Contents/MacOS/VLC ../DroneVideo.mov --video-filter=scene --vout=dummy --no-repeat --scene-ratio=6 --rate=0.01 --scene-prefix="drone"  --scene-path=./ vlc://quit
+</code></pre>
+
+<p>$PathToVLC PathToVideo$</p>
+
+<ul>
+<li>
+<code>-video-filter=scene --vout=dummy --no-repeat</code> fixed standard settings (no repeat prevents looping)</li>
+<li>
+<code>-scene-ratio</code> is the number of frames it skips (30 is every 30 frames $\rightarrow$ once every second)</li>
+<li><p><code>--rate</code> is the playback rate (1 is 100%, 0.01 is 1%, the more frames you capture the slower this needs to be to make sure you keep up)</p></li>
+<li><p>Lucie's video to image command (must be adapted to where VLC is located)</p></li>
+</ul>
+
+<pre><code>/Applications/VLC.app/Contents/MacOS/VLC ../TrimmedVideo.mov --video-filter=scene --vout=dummy --no-repeat --scene-ratio=300 --rate=8 --scene-prefix="drone"  --scene-path=./ vlc://quit
+</code></pre>
+
+<h2>
+<a id="relevant-links" class="anchor" href="#relevant-links" aria-hidden="true"><span class="octicon octicon-link"></span></a>Relevant Links</h2>
+
+<ul>
+<li>
+<a href="https://tech.knime.org/forum/knime-image-processing">KNIME Image Procesing Forums</a>, here you can ask questions about how to work and solve new problems in KNIME.</li>
+<li>
+<a href="https://github.com/knime-ip/knip/issues">Report bugs in KNIME Image Processing</a>
+
+<ul>
+<li>Provide anonymous feedback on the course <a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dEtIX1ZXMzFacmdhRF9mQVpNaWtWTXc6MA">here</a>
+</li>
+<li>Or send direct email (slightly less anonymous feedback) to <a href="mailto:mader@biomed.ee.ethz.ch">Kevin</a>
+</li>
+</ul>
+</li>
+<li><p><a href="https://github.com/kmader/Quantitative-Big-Imaging-2015/wiki/KNIME-Setup">KNIME Setup</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=7HwCgleJMk4">KNIME Youtube Video</a></p></li>
+<li><p><a href="http://kmader.github.io/Quantitative-Big-Imaging-2015/">Quantitative Big Imaging Course</a></p></li>
+<li><a href="http://4quant.com/spark-summit-2014-presentation">Presentation at Spark Summit 2014</a></li>
+<li>A Demo of our <a href="https://kmader.shinyapps.io/SearchMachineDemo">Quantitative Image Search Engine</a>
+</li>
+</ul>
+
+<h2>
+<a id="bio" class="anchor" href="#bio" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bio</h2>
+
+<p>Kevin Mader is the founder of 4Quant and a lecturer in the X-ray Microscopy Group within the Department for Information Technology and Electrical Engineering at ETH Zurich. His research focuses on turning big hairy 3D images into simple, robust, reproducible numbers without resorting to black boxes or magic. In particular, as part of several collaborations, he is currently working on automatically segmenting full animal zebrafish images, characterizing rheology in 3D flows, and measuring viral infection dynamics in cell lines.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/4Quant/VT-Science-Week-2015">VT Science Week Imaging Seminar</a> is maintained by <a href="https://github.com/4Quant">4Quant</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-48764461-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
