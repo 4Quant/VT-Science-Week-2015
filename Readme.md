@@ -52,6 +52,31 @@ $PathToVLC PathToVideo$
 - [Presentation at Spark Summit 2014](http://4quant.com/spark-summit-2014-presentation)
 - A Demo of our [Quantitative Image Search Engine](https://kmader.shinyapps.io/SearchMachineDemo)
 
+
+# 4Quant Use Cases
+A few of the examples of technology that 4Quant has been developing.
+
+### Medicine
+- [Planning surgery and radiotherapy with real time segmentations](http://4quant.com/Realtime-MRI-Segmentation)
+- [Segmenting organs from archived chest CT images](http://4quant.com/Organ-Segmentation/)
+- [Finding lesions in Capsule Based Endoscopy](http://4quant.com/Capsule-Endoscopy)
+
+### Geographic Information Systems
+- [Calculating Flood Risk for Insurance Companies](http://4quant.com/Flood-Risk)
+- [Counting Cars in Satellite Images](http://4quant.com/countingcarsdemo)
+- [Finding buildings and forests in Satellite Images](http://4quant.com/geospatialdemo/)
+
+### Surveillance
+- [Count people from drone footage](http://4quant.com/Drone-People-Counting)
+- [Finding criminals with traffic cameras](http://4quant.com/Pursuing-Criminals/)
+
+### Real-time QA
+- [Check train tracks in real time](http://4quant.com/Railway-Check)
+
+### Fun
+- [Untangling the flood of Online Dating](http://4quant.com/Online-Dating)
+- [Quantitative Image Search Machine](http://kmader.shinyapps.io/SearchMachineDemo)
+
 ## Bio
 Kevin Mader is the founder of 4Quant and a lecturer in the X-ray Microscopy Group within the Department for Information Technology and Electrical Engineering at ETH Zurich. His research focuses on turning big hairy 3D images into simple, robust, reproducible numbers without resorting to black boxes or magic. In particular, as part of several collaborations, he is currently working on automatically segmenting full animal zebrafish images, characterizing rheology in 3D flows, and measuring viral infection dynamics in cell lines.
 
